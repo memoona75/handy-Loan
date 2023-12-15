@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/dashboard"
+            android:icon="@drawable/baseline_dashboard_24"
+            android:title="Dashboard"/>
+
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Authentication">
+
+          <menu>
+
+              <item
+                  android:id="@+id/logout"
+                  android:title="Logout"
+                  android:icon="@drawable/baseline_logout_24"/>
+
+              <item
+                  android:id="@+id/login_menu"
+                  android:title="Login"
+                  android:icon="@drawable/baseline_login_24"/>
+
+          </menu>
+
+
+        </item>
+
+
+
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Sharing">
+
+            <menu>
+
+                <item
+                    android:id="@+id/share"
+                    android:title="Share"
+                    android:icon="@drawable/baseline_share_24"/>
+
+                <item
+                    android:id="@+id/sharel"
+                    android:title="Share Location"
+                    android:icon="@drawable/baseline_share_location_24"/>
+
+            </menu>
+
+
+        </item>
+
+
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Contact support">
+
+            <menu>
+
+<item android:id="@+id/contact"
+    android:title="Contact Us"
+    android:icon="@drawable/baseline_contact_support_24"/>
+
+            </menu>
+
+
+        </item>
+
+
+
+
+    </group>
+
+
+
+
+
+</menu>
